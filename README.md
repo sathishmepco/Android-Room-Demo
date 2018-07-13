@@ -9,14 +9,18 @@ Using Android Room persistent library to store data in the local database. Devel
 
 # Gradle file Changes
 
-  Project level gradle file
+Project level gradle file
+    ``` gradle
     ext{
         roomVersion = '1.0.0'
         archLifecycleVersion = '1.1.0'
     }
+    ```
 
 
-   App Module level gradle file
+App Module level gradle file
+
+    ```gradle
    android {
         //other configuration
         defaultConfig {
@@ -39,11 +43,11 @@ Using Android Room persistent library to store data in the local database. Devel
        annotationProcessor "android.arch.persistence.room:compiler:$rootProject.roomVersion"
        androidTestImplementation "android.arch.persistence.room:testing:$rootProject.roomVersion"
 
-   // Lifecycle components
+    // Lifecycle components
        implementation "android.arch.lifecycle:extensions:$rootProject.archLifecycleVersion"
        annotationProcessor "android.arch.lifecycle:compiler:$rootProject.archLifecycleVersion"
-
    }
+   ```
 
 # Download the Apk
 <a target="_blank" download="WordsApp.apk" href="https://github.com/sathishmepco/Android-Room-Demo/blob/master/app/release/Android%20Room%20Demo%20Words%20App.apk"> Click here to download the apk file </a>
