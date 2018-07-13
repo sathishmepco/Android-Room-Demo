@@ -7,6 +7,11 @@ Using Android Room persistent library to store data in the local database. Devel
 - Constraint Layout
 - Recycler View and its Adapter
 
+# Functions of Words App
+- insert a new word
+- Gel all the stored words
+- Delete all the words
+
 # Gradle file Changes
 
 Project level gradle file
