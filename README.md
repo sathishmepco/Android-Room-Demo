@@ -53,6 +53,7 @@ App Module level gradle file
 
 
 # Download the Apk
-<a target="_blank" download="WordsApp.apk" href="href="/sathishmepco/Android-Room-Demo/blob/master/app/release/Android%20Room%20Demo%20Words%20App.apk?raw=true""> Click here to download the apk file </a>
+<a target="_blank" download="WordsApp.apk"
+href="/sathishmepco/Android-Room-Demo/blob/master/app/release/Android%20Room%20Demo%20Words%20App.apk?raw=true"> Click here to download the apk file </a>
 
 <img src="Android Room Demo Words App.png" />
